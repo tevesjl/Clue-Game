@@ -1,0 +1,3 @@
+When checking the different doors, we changed the cells tested to four doors in different directions
+that are in our board. We chose 4 doors that are not close to each other, so that if the board has
+trouble later on in it's instantiation, we would be able to detect that.

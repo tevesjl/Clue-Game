@@ -1,0 +1,289 @@
+I, Max Hampton, certify that I participated equitably in the creation of assignment C25A, dated 2022.
+I, Joshua Teves, certify that I participated equitably in the creation of this assignment C25A, dated 2022.
+commit 47cf5d8f73b09d7f0824372e232dc5e5031b291d
+Author: Max Hampton <max.hampton@gmail.com>
+Date:   Mon Apr 18 18:38:38 2022 -0600
+
+    added new board method: addWalkwayAdjacency (add cell adjacent to walkways as adjacencies
+
+commit dd97e18ab699730ac9108c26be1e73857f274852
+Author: Max Hampton <max.hampton@gmail.com>
+Date:   Mon Apr 18 18:31:40 2022 -0600
+
+    added new board method: addSecretPassageAdjacency (adds ajacencies between room centers if there exists a secret passage)
+
+commit 6f98f7f35da0bf350d66a561f5ef1a9354e74ece
+Author: Max Hampton <max.hampton@gmail.com>
+Date:   Mon Apr 18 18:27:34 2022 -0600
+
+    added new board method: addRoomCenterAdjacency (sets room centers as adjacent for doorways)
+
+commit d6eaf3d3c3f7b590c271cd6b5d7485a79110d6e7
+Author: Max Hampton <max.hampton@gmail.com>
+Date:   Mon Apr 18 18:24:09 2022 -0600
+
+    added two new board methods: drawCells and drawPlayers for simplicity
+
+commit abe7c8f10738a1f5396943569df7c950ef368ac6
+Author: Max Hampton <max.hampton@gmail.com>
+Date:   Mon Apr 18 18:22:01 2022 -0600
+
+    added new board method: populateRoomsAndCards (populates room map and creates cards (and adds them to deck))
+
+commit db255a6cf86075bc758632280f2f1ed7ddae676c
+Author: Max Hampton <max.hampton@gmail.com>
+Date:   Mon Apr 18 17:58:10 2022 -0600
+
+    condensed specialized character initialization into one method
+
+commit 2e1d0f7a2422290e9059db1cb5aba79a541d05e7
+Author: Max Hampton <max.hampton@gmail.com>
+Date:   Mon Apr 18 17:30:58 2022 -0600
+
+    removed unused methods
+
+commit a0ad012778b6b8cf074f3dfdacc90f060ff89fad
+Author: Max Hampton <max.hampton@gmail.com>
+Date:   Mon Apr 18 17:27:54 2022 -0600
+
+    more comments added
+
+commit 48e0a166c1127bdff6f12ba15700b21ade8a2cfe
+Author: Max Hampton <max.hampton@gmail.com>
+Date:   Fri Apr 15 17:03:39 2022 -0600
+
+    added movement to the players
+
+commit 19941324fa5d4dd65081264577e59147f4af4bc2
+Author: Max Hampton <max.hampton@gmail.com>
+Date:   Mon Apr 11 18:14:44 2022 -0600
+
+    all tests now pass
+
+commit 1d6e2726587185f9d46319e4971b721466260bc0
+Author: Max Hampton <max.hampton@gmail.com>
+Date:   Mon Apr 11 18:11:41 2022 -0600
+
+    ClueGame class complete, BoardCells and Players now draw themselves when Swing paints the board
+
+commit 3f9d6df7e10f1593abd815c9ed525c212f6a957e
+Author: Max Hampton <max.hampton@gmail.com>
+Date:   Mon Apr 11 17:23:03 2022 -0600
+
+    ClueGame class added, board is now a JPanel
+
+commit 3afaf02ea0e06b0841429691a778b30f17006eb3
+Author: Max Hampton <max.hampton@gmail.com>
+Date:   Fri Apr 8 20:19:07 2022 -0600
+
+    ClueCardsPanel added, along with functionality
+
+commit 0b6f331cd31cd8c245b00c6e6ec31fadba4a1fb1
+Author: Max Hampton <mhampton@mines.edu>
+Date:   Thu Apr 7 15:09:05 2022 -0600
+
+    added GameControlPanel, with functionality
+
+commit bee6746000672ded6bc0781fb31374aeb8cbb9ee
+Author: Max Hampton <max.hampton@gmail.com>
+Date:   Mon Apr 4 21:26:57 2022 -0600
+
+    All tests now pass
+
+commit b18ff332a08a6824382bfea5584fa139baab62b8
+Author: Max Hampton <max.hampton@gmail.com>
+Date:   Mon Apr 4 19:15:05 2022 -0600
+
+    Added disprove suggestion tests, all of which fail, and added functionality to handle suggestion tests so they pass
+
+commit 7d6a003a7c45d503227728546b0d1980ecb42c5e
+Author: Max Hampton <max.hampton@gmail.com>
+Date:   Mon Apr 4 17:44:01 2022 -0600
+
+    Added GameSolutionTest and tests to check accusations, all of which fail
+
+commit 3b09588d7b3c3853767ca16b1dd5913bb31e240e
+Author: Max Hampton <max.hampton@gmail.com>
+Date:   Mon Apr 4 17:25:28 2022 -0600
+
+    ComputerAITests now pass
+
+commit a2a0bdcd967afefbd28f239424577eb08b504fb2
+Author: Max Hampton <max.hampton@gmail.com>
+Date:   Mon Apr 4 16:54:52 2022 -0600
+
+    Added ComputerAITests
+
+commit 10dd9c8d08e44c4960888add3200fa26dcff4fca
+Author: Max Hampton <max.hampton@gmail.com>
+Date:   Fri Apr 1 21:54:56 2022 -0600
+
+    Final functionality added, all tests now pass together
+
+commit b6cfeb1342497fdaf0615308beb1cc47bb2ab162
+Author: Max Hampton <max.hampton@gmail.com>
+Date:   Fri Apr 1 21:30:55 2022 -0600
+
+    testCard passes again
+
+commit d275e4172e341cd2fe6d81a8687d49b5dc063843
+Author: Max Hampton <max.hampton@gmail.com>
+Date:   Fri Apr 1 21:18:41 2022 -0600
+
+    More tests added to testCard, now fails
+
+commit 7bf2959640ab1766392b3305ae00a350d5d1ac9e
+Author: Max Hampton <mhampton@mines.edu>
+Date:   Thu Mar 31 15:05:54 2022 -0600
+
+    all tests now pass together
+
+commit a987cae8cc85c16ac8fcaf8ed4ee3cd46c0417b3
+Author: Max Hampton <mhampton@mines.edu>
+Date:   Thu Mar 31 15:02:21 2022 -0600
+
+    testCard now passes
+
+commit a444772c3dc68741456396b32852bd261c7de321
+Author: Max Hampton <mhampton@mines.edu>
+Date:   Thu Mar 31 14:16:54 2022 -0600
+
+    Added testCard test
+
+commit e8f7a21b1a60d33c1a575fc1a7cfa36b80cb77c2
+Author: Max Hampton <mhampton@mines.edu>
+Date:   Tue Mar 29 14:52:08 2022 -0600
+
+    added method stubs and skeleton for tests
+
+commit b9760c4e238625b33809c06df00161cfad83486f
+Author: Max Hampton <max.hampton@gmail.com>
+Date:   Mon Mar 14 21:36:25 2022 -0600
+
+    added names, class, and section info at the top of the code
+
+commit 09c87058b0fc6f68b09ac8d9ca1bbb14a3e651e4
+Author: Max Hampton <max.hampton@gmail.com>
+Date:   Mon Mar 14 21:32:22 2022 -0600
+
+    changed where we test for room center occupation, so room center cells are never considered occupied
+
+commit 45a987319587f56934e127630327496ce6d0717b
+Author: Max Hampton <max.hampton@gmail.com>
+Date:   Mon Mar 14 21:26:02 2022 -0600
+
+    added clarifying comments to BoardAdjTargetTest
+
+commit beaf62f640b4cc6dee147f19da2939bfd9d84607
+Author: Max Hampton <max.hampton@gmail.com>
+Date:   Mon Mar 14 21:19:04 2022 -0600
+
+    renamed variable room to doorCell, which is no longer confusing
+
+commit 64de6a2bd368c3f41cf47d5df316bb6dd00a3bfa
+Author: Max Hampton <max.hampton@gmail.com>
+Date:   Mon Mar 14 21:15:05 2022 -0600
+
+    finished commenting and rearranging board to proper format
+
+commit 1036286700c2026f791ec25f0a2d75e21ef161f6
+Author: Max Hampton <max.hampton@gmail.com>
+Date:   Mon Mar 14 21:06:40 2022 -0600
+
+    added comments to BadConfigFormatException and DoorDirection
+
+commit 055746543568ede30328b9fef09bd9db1de40024
+Author: Max Hampton <max.hampton@gmail.com>
+Date:   Mon Mar 14 21:04:20 2022 -0600
+
+    added comments to all functions, and properly arranged getters and setters
+
+commit e08d85481c2e206cf33bbfa04e640e40f9cb5093
+Author: Max Hampton <max.hampton@gmail.com>
+Date:   Mon Mar 14 20:47:08 2022 -0600
+
+    made i and j incrementing variables consistent across all functions
+
+commit 448e3c9a49d47ed0fbdbe02a6e89996a7350e769
+Author: Max Hampton <max.hampton@gmail.com>
+Date:   Fri Mar 11 21:29:28 2022 -0700
+
+    BoardAdjTargetTest306 now passes
+
+commit 68da215af6dc001446f47028709f4ebfcfc401be
+Author: Max Hampton <max.hampton@gmail.com>
+Date:   Fri Mar 11 20:48:32 2022 -0700
+
+    BoardAdjTargetTest now passes
+
+commit ac08a72a08323a41b6e33c7c314c1cea3bbd6f51
+Author: Max Hampton <max.hampton@gmail.com>
+Date:   Mon Mar 7 19:16:23 2022 -0700
+
+    added BoardAdjTargetTest, which currently fails
+
+commit d6540b1ef1fccc99c14e93f5e66851c0a16a2cff
+Author: Max Hampton <max.hampton@gmail.com>
+Date:   Mon Mar 7 17:25:44 2022 -0700
+
+    added BoardAdjTargetTest306, created stub methods so it fails
+
+commit e4ef5ef9496c8944905a2d2f968f5cc11aa8874d
+Author: Max Hampton <max.hampton@gmail.com>
+Date:   Mon Mar 7 16:57:11 2022 -0700
+
+    added polish, all tests now pass
+
+commit 0d8b64d9a01148812e50bca21821252dfe51e4a1
+Author: Max Hampton <max.hampton@gmail.com>
+Date:   Mon Mar 7 16:35:37 2022 -0700
+
+    fixed board cell, FileInitTest now passes
+
+commit e5189c8b487c4d941b41f4a0330efe5d90b75b96
+Author: Max Hampton <mhampton@mines.edu>
+Date:   Thu Mar 3 15:24:22 2022 -0700
+
+    Added some functionality to the main classes
+
+commit 5e18b1bcba78e5d77b00d7971743709773148025
+Author: Max Hampton <mhampton@mines.edu>
+Date:   Thu Mar 3 14:36:45 2022 -0700
+
+    Tests created for our board, all of which currently fail
+
+commit 7a7b652113361a1f12ff23a8ca2d528796b422ff
+Author: Max Hampton <max.hampton@gmail.com>
+Date:   Wed Mar 2 19:13:22 2022 -0700
+
+    Added clueGame and relevant tests
+
+commit e7076f8152f6ceadc81a9c13c4c1a4934ba4c791
+Author: Max Hampton <mhampton@mines.edu>
+Date:   Tue Mar 1 15:11:47 2022 -0700
+
+    Fixed errors, tests now pass
+
+commit 21f25b3bbcde43021150291e46ec4fd85c6ef7d1
+Author: Max Hampton <mhampton@mines.edu>
+Date:   Tue Mar 1 15:01:54 2022 -0700
+
+    Added initial functionality to TestBoardCell and TestBoard
+
+commit 6134153d882f4e0438655bb2db3a09a93995df24
+Author: Max Hampton <mhampton@mines.edu>
+Date:   Tue Mar 1 14:27:58 2022 -0700
+
+    Fixed gitignore
+
+commit ccc62192ce18120f6787ee6ea0d8b9306697a3cf
+Author: Max Hampton <max.hampton@gmail.com>
+Date:   Mon Feb 28 21:02:54 2022 -0700
+
+    Tests added
+
+commit 7bde7a3160fefe8f5a6f96f9d05c4265d3789fba
+Author: Max Hampton <mhampton@mines.edu>
+Date:   Thu Feb 24 14:41:40 2022 -0700
+
+    Initial commit, implemented TestBoard and TestBoardCell
